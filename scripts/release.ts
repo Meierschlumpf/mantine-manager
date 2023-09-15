@@ -94,7 +94,7 @@ const { argv }: { argv: any } = yargs(hideBin(process.argv))
     logger.success('All packages were published successfully');
   }
 
-  await git.add([path.join(__dirname, '../src'), path.join(__dirname, '../package.json')]);
+  await git.add([path.join(__dirname, '../packages'), path.join(__dirname, '../package.json')]);
   await git.commit(`[release] Version: ${incrementedVersion}`);
   await git.push();
 
