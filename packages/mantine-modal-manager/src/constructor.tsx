@@ -1,7 +1,12 @@
 import React from 'react';
 import { ConfirmModal } from './ConfirmModal';
 import { useManagedModalActions } from './context';
-import { ConfirmLabels, ManagedModalProps, ModalState, OpenConfirmModal } from './loader';
+import {
+  type ConfirmLabels,
+  type ManagedModalProps,
+  type ModalState,
+  type OpenConfirmModal,
+} from './loader';
 
 function separateConfirmModalProps(props: OpenConfirmModal) {
   if (!props) {

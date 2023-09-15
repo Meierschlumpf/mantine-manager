@@ -10,7 +10,7 @@ export const ModalActionsContext = createContext<ManagedModalActionsContext | nu
 export const useManagedModalActions = (id: string) => {
   const actions = useContext(ModalActionsContext);
   if (!actions) {
-    throw new Error(`[mantine-modal-manager] Could not find managed modal actions for modals`);
+    throw new Error('[mantine-modal-manager] Could not find managed modal actions for modals');
   }
 
   return {

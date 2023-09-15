@@ -40,14 +40,5 @@ export async function getPackagesBuildOrder(
   packages?: Package[],
   order: Record<string, number> = {}
 ) {
-  packages = packages || (await getPackagesList());
-
-  for (const pkg of packages) {
-    await getPackageBuildOrder(packages, pkg, order);
-  }
-
-  return Object.keys(order)
-    .filter((p) => order[p] !== -1)
-    .sort((a, b) => order[a] - order[b])
-    .map((p) => packages!.find((dataItem) => dataItem.packageJson.name === p));
+  return packages || (await getPackagesList());
 }

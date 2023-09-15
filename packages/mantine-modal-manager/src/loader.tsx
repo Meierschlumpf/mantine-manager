@@ -1,11 +1,11 @@
 import { Modal, getDefaultZIndex } from '@mantine/core';
 import { randomId } from '@mantine/hooks';
 import React, { useCallback, useReducer, useRef } from 'react';
-import { ModalProps } from '@mantine/core';
-import { ReactNode } from 'react';
+import { type ModalProps } from '@mantine/core';
+import { type ReactNode } from 'react';
 import type { ConfirmModalProps } from './ConfirmModal';
 import { prepareModalsReducer } from './reducer';
-import { Modals, ModalsEvents } from './manager';
+import { type Modals, type ModalsEvents } from './manager';
 import { ModalActionsContext } from './context';
 
 export interface ModalManagerLoaderProps {
@@ -22,12 +22,8 @@ export interface ModalManagerLoaderProps {
 export const createModalManageLoader = <TModals extends Modals>(
   modals: TModals,
   useModalsEvents: (events: ModalsEvents<TModals>) => void
-) => {
-  return function InnerModalManageLoader({
-    children,
-    modalProps,
-    labels,
-  }: ModalManagerLoaderProps) {
+) =>
+  function InnerModalManageLoader({ children, modalProps, labels }: ModalManagerLoaderProps) {
     const [state, dispatch] = useReducer(prepareModalsReducer({ labels, modals }), {
       modals: [],
       current: null,
@@ -117,7 +113,7 @@ export const createModalManageLoader = <TModals extends Modals>(
     return (
       <ModalActionsContext.Provider
         value={{
-          closeModal: closeModal,
+          closeModal,
           closeAll,
         }}
       >
@@ -141,7 +137,6 @@ export const createModalManageLoader = <TModals extends Modals>(
       </ModalActionsContext.Provider>
     );
   };
-};
 
 export type ModalSettings = Partial<Omit<ModalProps, 'opened'>> & { modalId?: string };
 

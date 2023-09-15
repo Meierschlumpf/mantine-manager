@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Group, Box, ButtonProps, GroupProps } from '@mantine/core';
-import { ConfirmLabels } from './loader';
+import { type ConfirmLabels } from './loader';
 import { useManagedModalActions as useModalActions } from './context';
 
 export interface ConfirmModalProps {

@@ -1,5 +1,5 @@
 import { getModal } from './constructor';
-import { ConfirmLabels, ManagedModalActions, ManagedModalProps, ModalState } from './loader';
+import { type ConfirmLabels, type ManagedModalProps, type ModalState } from './loader';
 
 type ModalStateWithReference = ModalState & {
   /**

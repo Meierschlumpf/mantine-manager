@@ -6,14 +6,14 @@ import { Logger } from './utils/Logger';
 
 const logger = new Logger('check-conflicts');
 
-const src = path.join(__dirname, '../src');
+const packages = path.join(__dirname, '../packages');
 
 const errors: string[] = fs
-  .readdirSync(src)
-  .filter((folder) => isDir.sync(path.join(src, folder)))
+  .readdirSync(packages)
+  .filter((folder) => isDir.sync(path.join(packages, folder)))
   .reduce<string[]>((acc, folder) => {
     try {
-      fs.readJsonSync(path.join(src, folder, 'package.json'));
+      fs.readJsonSync(path.join(packages, folder, 'package.json'));
       return acc;
     } catch (err) {
       acc.push(folder);
