@@ -35,7 +35,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               </AppShellNavbar>
               <AppShellMain>{children}</AppShellMain>
             </AppShell>
-            {children}
           </ModalManager>
         </MantineProvider>
       </body>
