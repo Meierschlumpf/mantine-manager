@@ -5,22 +5,6 @@ async function writeVersionToPackageJson(filePath: string, version: string) {
   const current = await fs.readJSON(filePath);
   current.version = version;
 
-  if (current.peerDependencies) {
-    Object.keys(current.peerDependencies).forEach((packageName) => {
-      if (packageName.includes('@mantine/')) {
-        current.peerDependencies[packageName] = version;
-      }
-    });
-  }
-
-  if (current.dependencies) {
-    Object.keys(current.dependencies).forEach((packageName) => {
-      if (packageName.includes('@mantine/')) {
-        current.dependencies[packageName] = version;
-      }
-    });
-  }
-
   await fs.writeJSON(filePath, current, { spaces: 2 });
 }
 
