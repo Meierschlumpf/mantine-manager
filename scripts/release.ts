@@ -85,11 +85,12 @@ const { argv }: { argv: any } = yargs(hideBin(process.argv))
       argv.tag = 'next';
     }
 
-    await Promise.all(
+    console.log(packages);
+    /*await Promise.all(
       packages.map((p) =>
         publishPackage({ path: p!.path, name: p!.packageJson.name, tag: argv.tag })
       )
-    );
+    );*/
 
     logger.success('All packages were published successfully');
   }
