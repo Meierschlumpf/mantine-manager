@@ -101,10 +101,10 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mantine/core@^7.0.0-beta.7":
-  version "7.0.0-beta.7"
-  resolved "https://registry.npmjs.org/@mantine/core/-/core-7.0.0-beta.7.tgz"
-  integrity sha512-uJidJ7q50rvh/AC7PxWo5vvNA/nHoIIP08S1OKQfLmQU7ki7muykzmOzYI4muB89ZEKZtRPAUGifI7YF+dVlDw==
+"@mantine/core@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.0.0.tgz#28a912ad4526b9a1554fe9821d8c4be3392088e0"
+  integrity sha512-0F+AdATM6uzZyKD3YNR95EY4taYVpdnKIaEmjSNRqYnfHCK/4TcbG+srDDBXrXclyJpGg9I1TF1D5M1ePoBoNA==
   dependencies:
     "@floating-ui/react" "^0.24.8"
     clsx "2.0.0"
@@ -113,10 +113,10 @@
     react-textarea-autosize "8.5.2"
     type-fest "^3.13.1"
 
-"@mantine/hooks@^7.0.0-beta.7":
-  version "7.0.0-beta.7"
-  resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.0.0-beta.7.tgz"
-  integrity sha512-TleKhNpZprZO3xbhzz8LrmnOP56MSoUwhIZfrP/Y9hohGgtrcZ+DxWk8ROwNo6O7pWqHfNhfNDtfm6ul/Sa1eg==
+"@mantine/hooks@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.0.0.tgz#6c0060b7b903d2d93275a0b53b29775c54201faf"
+  integrity sha512-HdZ6qE15OKNA3esbO72+mRqztMcdGphL/wl/ks8N7iAlSUu7sFtgZN+IU6MfJxGc/MEN3x5dEceWG6FgwOmHOw==
 
 "@next/env@13.4.19":
   version "13.4.19"
@@ -1515,10 +1515,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-mantine-modal-manager@^7.0.0-beta.7:
-  version "7.0.0-beta.7"
-  resolved "https://registry.npmjs.org/mantine-modal-manager/-/mantine-modal-manager-7.0.0-beta.7.tgz"
-  integrity sha512-whC+1MuYMiH1RCofy15PE0VcE4Dxd8arbIuIn57jhZ2nxh8NbPNlTxqr8J+LVpUd8Zlfgleh2RQqWMCBb1ryuw==
+mantine-modal-manager@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/mantine-modal-manager/-/mantine-modal-manager-7.0.0.tgz#207f4b6f7bf8f904fc0cfc9609303d79022575ad"
+  integrity sha512-UbR+PCJGrOiwYvdgqmkMvAd+03TTglGOGoeGrboMiwk40bQmTgbhqPjijFzgPD+17kF6Glzxpgje7QEF+wCU1Q==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
