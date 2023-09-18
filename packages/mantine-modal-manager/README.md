@@ -12,10 +12,10 @@ This is an extension of `@mantine/modals` package with improved modals manager t
 
 ```bash
 # With yarn
-yarn add @mantine/hooks@next @mantine/core@next mantine-modal-manager@next
+yarn add @mantine/hooks @mantine/core mantine-modal-manager
 
 # With npm
-npm install @mantine/hooks@next @mantine/core@next mantine-modal-manager@next
+npm install @mantine/hooks @mantine/core mantine-modal-manager
 ```
 
 ## Usage
