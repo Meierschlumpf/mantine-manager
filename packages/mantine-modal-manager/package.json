@@ -32,8 +32,8 @@
     "confirm"
   ],
   "peerDependencies": {
-    "@mantine/core": "7.1.2",
-    "@mantine/hooks": "7.1.2",
+    "@mantine/core": "7.1.3",
+    "@mantine/hooks": "7.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
