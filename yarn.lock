@@ -484,22 +484,22 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@mantine/core@7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.2.2.tgz#fd7df20f4020fb4c96557f7ec06bb912dfb211ca"
-  integrity sha512-cVGmLjYyKIzjn0LRwamj71O4HT43qCxPGAzMZqkMYGOako7xwBLYQNe7HjL/J0FXJDyfX8OdMylVhgsePWYbng==
+"@mantine/core@7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.3.0.tgz#04a449367e45af4e742fd42e6cc290b7e385f9ef"
+  integrity sha512-RU8txZtfAu7mbb0mzKHFysVgteHP3ClAFmQzMPBf86p+JCOu+e6i5eq+qqv9iiGzrE50ZGuw/WtWYNi5VeJQ7w==
   dependencies:
     "@floating-ui/react" "^0.24.8"
     clsx "2.0.0"
-    react-number-format "^5.2.2"
-    react-remove-scroll "^2.5.6"
+    react-number-format "^5.3.1"
+    react-remove-scroll "^2.5.7"
     react-textarea-autosize "8.5.3"
     type-fest "^3.13.1"
 
-"@mantine/hooks@7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.2.2.tgz#d116d8659f77c5f05f9dc088887c8857fcb456da"
-  integrity sha512-7CFSVP2aQHrBwLLAVf0q5dgj+6QTZmhLTNcuc3pE1du+HLFUdyVS6vvQC6kieZXxOd6UzwFGBlN4G+aDx95XeA==
+"@mantine/hooks@7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.3.0.tgz#82a3b2df51cac1a9c5ea416f60162cf879928254"
+  integrity sha512-TL/9o4SpJogW5dJ4qvsZImsha6mOsCirIHlGP8dR00K72NjFgEqFPAy85HU68LQTG+GtMFRwk3tjpKneHF3uEA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -3090,7 +3090,7 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-number-format@^5.2.2:
+react-number-format@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/react-number-format/-/react-number-format-5.3.1.tgz#840c257da9cb4b248990d8db46e4d23e8bac67ff"
   integrity sha512-qpYcQLauIeEhCZUZY9jXZnnroOtdy3jYaS1zQ3M1Sr6r/KMOBEIGNIb7eKT19g2N1wbYgFgvDzs19hw5TrB8XQ==
@@ -3105,10 +3105,10 @@ react-remove-scroll-bar@^2.3.4:
     react-style-singleton "^2.2.1"
     tslib "^2.0.0"
 
-react-remove-scroll@^2.5.6:
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/react-remove-scroll/-/react-remove-scroll-2.5.6.tgz#7510b8079e9c7eebe00e65a33daaa3aa29a10336"
-  integrity sha512-bO856ad1uDYLefgArk559IzUNeQ6SWH4QnrevIUjH+GczV56giDfl3h0Idptf2oIKxQmd1p9BN25jleKodTALg==
+react-remove-scroll@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/react-remove-scroll/-/react-remove-scroll-2.5.7.tgz#15a1fd038e8497f65a695bf26a4a57970cac1ccb"
+  integrity sha512-FnrTWO4L7/Bhhf3CYBNArEG/yROV0tKmTv7/3h9QCFvH6sndeFf1wPqOcbFVu5VAulS5dV1wGT3GZZ/1GawqiA==
   dependencies:
     react-remove-scroll-bar "^2.3.4"
     react-style-singleton "^2.2.1"
