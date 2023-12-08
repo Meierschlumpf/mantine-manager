@@ -85,8 +85,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "@mantine/hooks": "7.3.0",
-    "@mantine/core": "7.3.0"
+    "@mantine/hooks": "7.3.1",
+    "@mantine/core": "7.3.1"
   },
   "volta": {
     "node": "20.5.0"
