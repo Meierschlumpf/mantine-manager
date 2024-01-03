@@ -102,7 +102,7 @@
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
 "@mantine/core@^7.3.2":
-  version "7.3.2"
+  version "7.4.0"
   resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.3.2.tgz#70a87c272d727c772f2e884f13e5e63989363fbd"
   integrity sha512-CwAuQogVLcLR7O9e1eOgi3gtk4XX6cnaqevAxzJJpIOIyCnHiQ3cEGINVXyUUjUUipBlvK3sqz3NPGJ2ekLFDQ==
   dependencies:
@@ -114,7 +114,7 @@
     type-fest "^3.13.1"
 
 "@mantine/hooks@^7.3.2":
-  version "7.3.2"
+  version "7.4.0"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.3.2.tgz#664651fce6207640a5f1dba3e55806b489ec7b12"
   integrity sha512-xgumuuI3PBWXff5N02HCI7PEy25mDEdyXDQklUYK93J6FKwpcosyZnGVitoUrV1gLtYYa9ZudeAWdhHuh/CpOg==
 
@@ -1516,7 +1516,7 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 mantine-modal-manager@^7.3.2:
-  version "7.3.2"
+  version "7.4.0"
   resolved "https://registry.yarnpkg.com/mantine-modal-manager/-/mantine-modal-manager-7.3.2.tgz#9f61f15ea8f359b6826e48ab059fca5df1bf98fd"
   integrity sha512-rHt53WBYPB1b+ZlhoYYH3iwG4cZ/UuQd/nVgo+k2f/dbNQskNcRW6ZJiJevcKqndXj/ut2qkgxtppKpUD9eWgg==
 
