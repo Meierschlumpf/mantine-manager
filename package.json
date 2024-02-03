@@ -4,7 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "version": "7.4.0",
+  "version": "7.5.0",
   "description": "Mantine Managers",
   "main": "index.js",
   "repository": "https://github.com/Meierschlumpf/mantine-manager.git",
