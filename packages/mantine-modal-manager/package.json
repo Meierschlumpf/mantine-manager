@@ -1,7 +1,7 @@
 {
   "name": "mantine-modal-manager",
   "description": "Improved Modals manager based on Mantine components",
-  "version": "7.6.1",
+  "version": "7.6.2",
   "types": "./lib/index.d.ts",
   "module": "./esm/index.js",
   "exports": {
